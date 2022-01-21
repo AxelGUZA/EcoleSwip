@@ -27,6 +27,7 @@ namespace EcoleSwip.Services
             }
 
             var dbSchool = _context.DbSchools.ToList();
+            
 
             var innerJoinQuery =
                 from school in dbSchool
